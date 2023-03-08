@@ -78,7 +78,7 @@ def plot_distribution(xs, ys, title, xlabel, ylabel, log_axis=None, save_fig=Fal
         plt.plot(xs, ys)  # marker='o'
     else:
         for i in range(len(xs)):
-            plt.plot(xs[i], ys[i], ' ', linestyle='solid')  # marker='o'
+            plt.plot(xs[i], ys[i],  linestyle='solid')  # marker='o'
 
     # Plot title and xy labels
     plt.title(title, {'color': 'k', 'fontsize': font_size})

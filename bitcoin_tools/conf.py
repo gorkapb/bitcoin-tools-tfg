@@ -11,5 +11,5 @@ address_vault = bitcoin_tools_dir + "bitcoin_addresses/"  # Address vault .
 default_coin = 'bitcoin'
 chainstate_path = home_dir + "/chainstate"  # Path to the chainstate.
 data_path = bitcoin_tools_dir + "data"  # Data storage path (for IO).
-figs_path = bitcoin_tools_dir + "figs"  # Figure store dir, where images from analysis will be stored.
+figs_path = bitcoin_tools_dir + "figs/"  # Figure store dir, where images from analysis will be stored.
 estimated_data_dir = bitcoin_tools_dir + 'estimation_data'  # Data for non-profitability with estimations
